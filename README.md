@@ -57,25 +57,25 @@ D7 = X Y Z
 ![image](https://user-images.githubusercontent.com/36288975/171543866-5a6eace6-8683-49d7-9c4f-a7cb30ec3035.png)
 ## Figure -04 8 to 3 Decoder implementation 
 
-### Procedure
+## Procedure
 
-#### Step 1:
+### Step 1:
 Module Declaration. module is a keywords defined in Verilog .
 
-#### Step 2:
+### Step 2:
 Input-Output Delecaration.
 
 8 to 3 Encoder has eight inputs and three outputs.
 3 to 8 Decoder has three inputs and eight outputs.
 
-#### Step 3:
+### Step 3:
 In the verilog program of encoder we use or gates .
 In the verilog program of decoder we use only and gates.
 
-#### Step 4:
+### Step 4:
 Ending module. endmodule is a keywords defined in Verilog.
 
-### PROGRAM 
+## PROGRAM 
 ```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by: Sowmiya N
@@ -109,7 +109,6 @@ assign d7=(a & b &c);
 endmodule
 
 ```
-
 
 ### RTL LOGIC  
 
